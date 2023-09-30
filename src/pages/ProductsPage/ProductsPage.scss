@@ -1,0 +1,23 @@
+.Products__page__contents__con {
+  display: flex;
+  margin: 4rem 0;
+}
+.products__and__short {
+  flex: 4;
+}
+
+.products__all_singel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem 2.5rem;
+}
+
+@media (max-width: 990px) {
+  .Products__page__contents__con {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}

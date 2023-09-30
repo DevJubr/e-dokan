@@ -1,0 +1,132 @@
+.heder_contenar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.nav_ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  z-index: 1;
+}
+
+header.nav_heder {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background: aliceblue;
+}
+
+li.cart {
+  display: flex;
+  position: relative;
+}
+
+.cart_svg {
+  width: 25px;
+  height: 25px;
+}
+
+p.cart_icon_amount {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  background: purple;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  right: -10px;
+  top: -7px;
+}
+
+li.nav_li > a {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+.nav_burger {
+  display: none;
+}
+.cross__for__mobile {
+  display: none;
+}
+
+.hedar_logo_div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1.logo {
+  text-transform: uppercase;
+  font-size: 2.35rem;
+}
+
+.hedar_logo_div {
+  width: 60px;
+  height: 60px;
+}
+.cart.moba {
+  display: none;
+}
+
+@media (max-width: 790px) {
+  .nav {
+    display: flex;
+    gap: 1.8rem;
+  }
+  .cross__for__mobile {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  .desx.desx {
+    display: none;
+  }
+  .cart.moba {
+    display: block;
+  }
+  .nav_heder {
+    position: relative !important;
+  }
+  .nav_ul {
+    position: absolute !important;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    background: #b2d1ec;
+    padding: 2rem 3rem;
+    margin: 1rem;
+    border-radius: 10px;
+    transform: translateY(-20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+  }
+  .nav_ul.active {
+    visibility: visible;
+
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .nav_burger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.4rem;
+    .burger {
+      width: 30px;
+      height: 3px;
+      background-color: rebeccapurple;
+    }
+  }
+}

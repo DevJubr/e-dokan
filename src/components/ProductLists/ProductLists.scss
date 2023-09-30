@@ -1,0 +1,11 @@
+.aps {
+  min-width: 350px;
+  height: 200px;
+}
+
+@media (max-width: 370px) {
+  .aps {
+    min-width: 100%;
+    height: 200px;
+  }
+}

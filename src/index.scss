@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+@import "./sass/var";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: $f_popin;
+  letter-spacing: 0.1rem;
+}
+body {
+  background: $bg_white_blue;
+  background: radial-gradient(circle, $bg_white_blue 0%, $bg_white 100%);
+}
+p {
+  font-family: $f_roboto !important;
+}
+.con {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  color: $dark_clr;
+}

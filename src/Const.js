@@ -1,0 +1,17 @@
+export const LOADING = "LOADING";
+export const END_LOADING = "END_LOADING";
+export const GET_ALL_PRODUCTS = "GET_ALL_PRODUCTS";
+export const LOAD_FILTER_PRODUCT = "LOAD_FILTER_PRODUCT";
+export const SET_GRID_VIEV = "SET_GRID_VIEV";
+export const SET_LIST_VIEV = "SET_LIST_VIEV";
+export const UPDEAT_SHORT = "UPDEAT_SHORT";
+export const SORT_PRODUCTS = "SORT_PRODUCTS";
+export const UPDEATE_FILTER = "UPDEATE_FILTER";
+export const FILTER_PRODUCTS = "FILTER_PRODUCTS";
+export const SINGEL_PRODUCT_PROS = "SINGEL_PRODUCT_PROS";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const TOGOL_CART = "TOGOL_CART";
+export const DELETE_FROM_CART = "DELETE_FROM_CART";
+export const CLR_CRT = "CLR_CRT";
+export const COUNT_CART_TOTALS = "COUNT_CART_TOTALS";
+// export const TOGOL_CART = "TOGOL_CART";

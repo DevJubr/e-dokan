@@ -1,0 +1,44 @@
+.singel_page_con {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+section.singel_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+}
+
+.SPtexT {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+h1.SP_title {
+  text-transform: capitalize;
+  font-size: 1.8rem;
+}
+
+li.Sp__li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-transform: capitalize;
+}
+
+ul.SP_ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+@media (max-width: 990px) {
+  .singel_page_con {
+    flex-wrap: wrap;
+  }
+}

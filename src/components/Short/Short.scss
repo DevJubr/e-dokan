@@ -1,0 +1,42 @@
+.Short {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 0 2rem 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.Short__gird__list {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.Short__gird__list svg:last-child {
+  width: 1.4em;
+  height: 1.4em;
+}
+
+.Short__gird__list svg {
+  cursor: pointer;
+}
+
+.Short__Short {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+span.short_apn {
+  text-transform: capitalize;
+}
+
+option.short_opt {
+  text-transform: capitalize !important;
+}
+@media (max-width: 370px) {
+  .Short__gird__list {
+    gap: 1.2rem;
+  }
+}

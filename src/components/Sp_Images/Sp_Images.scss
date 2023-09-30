@@ -1,0 +1,33 @@
+img.img_big {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+img.img_sml {
+  height: 70px;
+}
+
+.child_img {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 0.8rem;
+}
+
+@media (max-width: 450px) {
+  img.img_big {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  img.img_sml {
+    height: 40px;
+  }
+
+  .child_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
